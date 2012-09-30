@@ -9,4 +9,8 @@ We intend to implement this project using an Arduino MEGA ADK board, which provi
 
 Once we have the hardware integrated and succesfully communicating with the phone, we will then begin writing a small Android application to handle parsing NFC data and commands to and from the library. We intend to be as hands-off with the data and commands as we can be, relying on Google's code to handle the relevant processing.
 
-Primary contributors to this project are Matthew Lichtenberger (JousterL@gmail.com) and Zach Tibbits (zachtib@gmail.com).
+Longer term projects include pulling the raw NFC data into a list/database of some sort, to facilitate a Scan/Sniff functionality on the board.
+
+Additionally, eventual goal is to turn MEGA ADK board into 'networking hub'. Allow users to stick add-on modules like 802.11, NFC, Bluetooth modules and Android app will handle transition semi-seamlessly.
+
+Primary Investigator: Matthew Lichtenberger (JousterL@gmail.com).
